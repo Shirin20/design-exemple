@@ -1,6 +1,7 @@
 ---
 Title: Report
 Description: This is my report page.
+icon: far fa-file-alt
 ---
 
 Report page

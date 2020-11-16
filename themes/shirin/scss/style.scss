@@ -4,10 +4,35 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/brands';
 @import '../../shared/fontawesome/scss/solid';
 @import '../../shared/fontawesome/scss/regular';
+@import 'variables';
 
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Roboto&display=swap');
 
 @import 'old';
+
+.footer {
+    background: $text-color;
+    color: $base-color;
+}
+
+.main,
+.header {
+    background: $base-color;
+}
+
+.logo img {
+    border-radius: 50%;
+}
+
+.title * {
+    margin: 0;
+    color: $text-color;
+}
+
+a {
+    color: #387a54;
+}
+
 
 * {
     font-family: 'Nanum Gothic', sans-serif;
@@ -20,4 +45,5 @@ h4,
 h5,
 h6 {
     font-family: 'Nanum Gothic', sans-serif;
+    color: #391d19;
 }

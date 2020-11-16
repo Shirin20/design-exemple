@@ -1,6 +1,7 @@
 ---
 Title: Docs
 Description: Documentation that came with Pico.
+icon: far fa-file-word
 # hidden: true
 ---
 
