@@ -56,10 +56,6 @@
     }
 }
 
-.report .next-previous {
-    display: none;
-}
-
 .sidebar a {
     font-size: 1.8em;
     text-align: center;
@@ -93,16 +89,5 @@
 
     .sidebar {
         display: none !important;
-    }
-
-    .report .next-previous {
-        display: flex;
-        justify-content: center;
-
-        i {
-            font-size: 2.5em;
-            margin: 1em;
-            color: #444;
-        }
     }
 }
