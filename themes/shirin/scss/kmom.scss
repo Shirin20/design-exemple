@@ -1,0 +1,41 @@
+
+.report-container {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    gap: 1em;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1em;
+
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
+
+.sidebar a {
+    font-size: 1.8em;
+    text-align: center;
+    padding: 0.5em;
+    color: #444;
+    border-bottom: 1px solid transparent;
+
+    &:hover {
+        border-bottom: 1px solid #391d19;
+    }
+}
+
+.sidebar .active {
+    text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+    .report-container {
+        grid-template-columns: 12fr;
+    }
+
+    .sidebar {
+        display: none !important;
+    }
+}
