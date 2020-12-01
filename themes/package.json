@@ -6,10 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "watch": "sass shirin/scss/style.scss shirin/css/style.css --no-source-map  --watch",
-    "style": "sass shirin/scss/style.scss shirin/css/style.css --no-source-map",
-    "style-min": "sass shirin/scss/style.scss shirin/css/style.min.css --no-source-map --style compressed",
-    "watch-min": "sass shirin/scss/style.scss shirin/css/style.min.css --no-source-map --style compressed --watch"
+    "watch": "sass shirin/scss/style.scss:shirin/css/style.css shirin/scss/style-dark.scss:shirin/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass shirin/scss/style.scss:shirin/css/style.min.css shirin/scss/style-dark.scss:shirin/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-light": "sass shirin/scss/style.scss shirin/css/style.css --no-source-map",
+    "style-light-min": "sass shirin/scss/style.scss shirin/css/style.min.css --no-source-map --style compressed",
+    "style-dark": "sass shirin/scss/style-dark.scss shirin/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass shirin/scss/style-dark.scss shirin/css/style-dark.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",

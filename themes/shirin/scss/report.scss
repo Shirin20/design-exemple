@@ -13,7 +13,7 @@
 }
 
 .kmom-box {
-    border: 1px solid #391d19;
+    border: 1px solid $body-text-color;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,12 +26,12 @@
 
 .kmom-box a {
     width: 100%;
-    background-color: #391d19;
+    background-color: $dark-color;
     text-align: center;
 
     h2 {
         margin-top: 0.6em;
-        color: #c0c0c0;
+        color: #f2dae2;
     }
 }
 
