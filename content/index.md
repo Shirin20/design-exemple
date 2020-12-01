@@ -7,5 +7,5 @@ icon: fas fa-home
 Home page
 ==========================
 
-My name is Shirin Mirkhan and i'm 33 years old. live in kalmar and studying webbprogrammering.
-i work in the archive department at County Administrative Board Kalmar.
+My name is Shirin Mirkhan and i'm 33 years old. I live in kalmar and studying webbprogrammering.
+I work in the archive department at County Administrative Board Kalmar.

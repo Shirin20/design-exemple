@@ -2,15 +2,23 @@
 Logo: image/me.jpg
 Tagline: Web-design student.
 Social:
-    - title: Link till sidans github repo.
+    - title: github repo.
       url: https://github.com/Shirin20/design-exemple
       icon: fab fa-angellist
 
-    - title: Link till fontawesome.
+    - title: fontawesome.
       url: https://fontawesome.com/
       icon: fab fa-font-awesome-flag
 
-    - title: Link till Dbwebb.
+    - title: Dbwebb.
       url: https://dbwebb.se/kurser/design-v3/
       icon: fab fa-canadian-maple-leaf
+
+    - title: Dark mode.
+      url: ?action=theme
+      icon: fas fa-moon
+
+    - title: sunny mode.
+      url: ?action=session_destroy
+      icon: fas fa-sun
 ---

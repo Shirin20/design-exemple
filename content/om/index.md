@@ -1,6 +1,7 @@
 ---
 Title: OM
 Description: Om tekniker.
+icon: far fa-question-circle
 ---
 
 Tekniker
