@@ -14,7 +14,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'gallery';
 
 .footer {
-    background: $title-color;
+    background: #391d19;
     color: $backgraund-color;
 }
 
@@ -73,9 +73,19 @@ body {
 
 .nav .active a,
 .nav a:hover {
+    color: $title-color;
+    border-bottom: 3px $title-color;
+}
+
+.nav a,
+.nav-toggle {
     color: $body-text-color;
 }
 
 .kmom-box a {
-    background-color: $title-color;
+    background-color: #391d19;
+}
+
+.kmom-box a h2 {
+    color: $body-text-color;
 }
